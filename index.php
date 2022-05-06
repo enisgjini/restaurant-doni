@@ -128,7 +128,7 @@
 	<!-- Restaurant DONI - Menu | End -->
 
 
-	<?php include('./templates/testimonials.php') ?>
+	<?php include('./testimonials.php') ?>
 
 
 
