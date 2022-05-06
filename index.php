@@ -1,165 +1,135 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
 
-<body style="padding: 70px;">
-	<?php include('navbar.php'); ?>
+<head>
+	<!-- Meta Tag's -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- Link to CSS file -->
+	<link rel="stylesheet" href="style.css">
 
+</head>
 
+<body>
+	<!-- Header Included -->
+	<!-- Path →  C:\xampp\htdocs\restaurant-doni\templates\header.php -->
+	<?php include('./templates/header.php'); ?>
 
+	<!-- Navbar Included -->
+	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
+	<?php include('./templates/navbar.php'); ?>
 
+	<!-- Top content -->
+	<div class="top-content">
+		<!-- Carousel -->
+		<div id="carousel-example" class="carousel slide" data-ride="carousel">
 
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			</ol>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<link rel="icon" href="img/logo.png">
-
-	<div class="container">
-		<h1 class="page-header text-center">MENY</h1>
-		<ul class="nav nav-tabs">
-			<?php
-			$sql = "select * from category order by categoryid asc limit 1";
-			$fquery = $conn->query($sql);
-			$frow = $fquery->fetch_array();
-			?>
-			<li class="active"><a data-toggle="tab" href="#<?php echo $frow['catname'] ?>"><?php echo $frow['catname'] ?></a></li>
-			<?php
-
-			$sql = "select * from category order by categoryid asc";
-			$nquery = $conn->query($sql);
-			$num = $nquery->num_rows - 1;
-
-			$sql = "select * from category order by categoryid asc limit 1, $num";
-			$query = $conn->query($sql);
-			while ($row = $query->fetch_array()) {
-			?>
-				<li><a data-toggle="tab" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
-			<?php
-			}
-			?>
-		</ul>
-
-		<div class="tab-content">
-			<?php
-			$sql = "select * from category order by categoryid asc limit 1";
-			$fquery = $conn->query($sql);
-			$ftrow = $fquery->fetch_array();
-			?>
-			<div id="<?php echo $ftrow['catname']; ?>" class="tab-pane fade in active" style="margin-top:20px;">
-				<?php
-
-				$sql = "select * from product where categoryid='" . $ftrow['categoryid'] . "'";
-				$pfquery = $conn->query($sql);
-				$inc = 4;
-				while ($pfrow = $pfquery->fetch_array()) {
-					$inc = ($inc == 4) ? 1 : $inc + 1;
-					if ($inc == 1) echo "<div class='row'>";
-				?>
-					<div class="col-md-3">
-						<div class="panel panel-default">
-							<div class="panel-heading text-center">
-								<b><?php echo $pfrow['productname']; ?></b>
-							</div>
-							<div class="panel-body">
-								<img src="admin/<?php if (empty($pfrow['photo'])) {
-													echo "admin/upload/noimage.jpg";
-												} else {
-													echo $pfrow['photo'];
-												} ?>" height="225px;" width="100%">
-							</div>
-							<div class="panel-footer text-center">
-								&#8364; <?php echo number_format($pfrow['price'], 2); ?>
-							</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-caption">
+						<h1>Carousel Fullscreen Template</h1>
+						<div class="carousel-caption-description">
+							<p>This is a free Fullscreen Carousel template made with the Bootstrap 4 framework.</p>
 						</div>
 					</div>
-				<?php
-					if ($inc == 4) echo "</div>";
-				}
-				if ($inc == 1) echo "<div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'></div></div>";
-				if ($inc == 2) echo "<div class='col-md-3'></div><div class='col-md-3'></div></div>";
-				if ($inc == 3) echo "<div class='col-md-3'></div></div>";
-				?>
-			</div>
-			<?php
+					<img src="img/1.jpg" class="d-block w-100" alt="slide-img-1">
 
-			$sql = "select * from category order by categoryid asc";
-			$tquery = $conn->query($sql);
-			$tnum = $tquery->num_rows - 1;
-
-			$sql = "select * from category order by categoryid asc limit 1, $tnum";
-			$cquery = $conn->query($sql);
-			while ($trow = $cquery->fetch_array()) {
-			?>
-				<div id="<?php echo $trow['catname']; ?>" class="tab-pane fade" style="margin-top:20px;">
-					<?php
-
-					$sql = "select * from product where categoryid='" . $trow['categoryid'] . "'";
-					$pquery = $conn->query($sql);
-					$inc = 4;
-					while ($prow = $pquery->fetch_array()) {
-						$inc = ($inc == 4) ? 1 : $inc + 1;
-						if ($inc == 1) echo "<div class='row'>";
-					?>
-						<div class="col-md-3">
-							<div class="panel panel-default">
-								<div class="panel-heading text-center">
-									<b><?php echo $prow['productname']; ?></b>
-								</div>
-								<div class="panel-body">
-									<img src="admin/<?php if ($prow['photo'] == '') {
-														echo 'upload/noimage.jpg';
-													} else {
-														echo $prow['photo'];
-													} ?>" height="225px;" width="100%">
-								</div>
-								<div class="panel-footer text-center">
-									&#8364; <?php echo number_format($prow['price'], 2); ?>
-								</div>
-							</div>
-						</div>
-					<?php
-						if ($inc == 4) echo "</div>";
-					}
-					if ($inc == 1) echo "<div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'></div></div>";
-					if ($inc == 2) echo "<div class='col-md-3'></div><div class='col-md-3'></div></div>";
-					if ($inc == 3) echo "<div class='col-md-3'></div></div>";
-					?>
 				</div>
-			<?php
-			}
-			?>
-		</div>
+				<div class="carousel-item">
+					<img src="img/2.jpg" class="d-block w-100" alt="slide-img-2">
+					<div class="carousel-caption">
+						<h1>Carousel Fullscreen Template</h1>
+						<div class="carousel-caption-description">
+							<p>This is a free Fullscreen Carousel template made with the Bootstrap 4 framework.</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/3.jpg" class="d-block w-100" alt="slide-img-3">
+					<div class="carousel-caption">
+						<h1>Carousel Fullscreen Template</h1>
+						<div class="carousel-caption-description">
+							<p>This is a free Fullscreen Carousel template made with the Bootstrap 4 framework.</p>
+						</div>
+					</div>
+				</div>
 
+			</div>
+
+			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 	</div>
+	<!-- End carousel -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-6 mt-2">
+				<h1 class="text-center mt-3">Restaurant DONI</h1>
+				<h3 class="text-center mt-3">Mirë se vini</h3>
+				<p class="text-center mt-3"> Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
+
+				<a href="rresh-nesh.php" class="btn btn-outline-info d-flex justify-content-center text-center">HISTORIA JONË →</a>
+			</div>
+			<div class="col-sm-6">
+				<img src="img/1.jpg" class="img-thumbnail" alt="">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Footer Included -->
+	<!-- Path →  C:\xampp\htdocs\restaurant-doni\templates\footer.php -->
+	<?php include('./templates/footer.php'); ?>
+
+</html>
 </body>
-<footer>
-	<center>Made with love from IllyrianDev</center>
-</footer>
 
 </html>
