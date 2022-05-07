@@ -12,21 +12,19 @@
 </head>
 
 <body>
-	<?php include('header.php'); ?>
-	<?php include('navbar.php'); ?>
-
-	
-
+	<!-- Navbar Included -->
+	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
+	<?php include('templates/header.php'); ?>
 
 
+	<!-- Navbar Included -->
+	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
+	<?php include('./templates/navbar.php'); ?>
 
 
-
-
-
-
-
-
+	<!-- Carousel of images Included -->
+	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\carousel-of-images.php -->
+	<?php include('./templates/carousel-of-images-2.php'); ?>
 
 
 
@@ -46,20 +44,15 @@
 
 
 
-
-
-
-
-
-	<div class="container">
-		<h1 class="page-header text-center">MENY</h1>
-		<ul class="nav nav-tabs">
+	<div class="container mt-5">
+		<h1 class="text-center mt-5 mb-5">Menuja jonë</h1>
+		<ul class="nav nav-pills flex-row flex-sm-row mt-5 ">
 			<?php
 			$sql = "select * from category order by categoryid asc limit 1";
 			$fquery = $conn->query($sql);
 			$frow = $fquery->fetch_array();
 			?>
-			<li class="active"><a data-toggle="tab" href="#<?php echo $frow['catname'] ?>"><?php echo $frow['catname'] ?></a></li>
+			<li class="nav-item"><a data-toggle="tab" class="btn btn-outline-dark mr-3 mt-2" href="#<?php echo $frow['catname'] ?>"><?php echo $frow['catname'] ?></a></li>
 			<?php
 
 			$sql = "select * from category order by categoryid asc";
@@ -70,7 +63,7 @@
 			$query = $conn->query($sql);
 			while ($row = $query->fetch_array()) {
 			?>
-				<li><a data-toggle="tab" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
+				<li class="nav-item"><a data-toggle="tab" class="btn btn-outline-dark mr-3 mt-2" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
 			<?php
 			}
 			?>
@@ -92,29 +85,52 @@
 					$inc = ($inc == 4) ? 1 : $inc + 1;
 					if ($inc == 1) echo "<div class='row'>";
 				?>
-					<div class="col-md-3">
-						<div class="panel panel-default">
-							<div class="panel-heading text-center">
-								<b><?php echo $pfrow['productname']; ?></b>
-							</div>
-							<div class="panel-body">
-								<img src="admin/<?php if (empty($pfrow['photo'])) {
-													echo "admin/upload/noimage.jpg";
-												} else {
-													echo $pfrow['photo'];
-												} ?>" height="225px;" width="100%">
-							</div>
-							<div class="panel-footer text-center">
-								&#8364; <?php echo number_format($pfrow['price'], 2); ?>
+
+					<div class="col-sm-3 mt-3">
+						<div class="card">
+							<img class="card-img-top" src="admin/<?php if (empty($pfrow['photo'])) {
+																		echo "admin/upload/noimage.jpg";
+																	} else {
+																		echo $pfrow['photo'];
+																	} ?>" alt="Card image cap" style="width: 100%;height: 200px;object-fit: cover;">
+							<div class="card-body">
+								<h5 class="card-text"><?php echo $pfrow['productname']; ?></h5>
+								<hr>
+								<h6 class="card-text"><?php echo number_format($pfrow['price'], 2); ?> &#8364; </h6>
 							</div>
 						</div>
 					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<?php
 					if ($inc == 4) echo "</div>";
 				}
-				if ($inc == 1) echo "<div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'></div></div>";
-				if ($inc == 2) echo "<div class='col-md-3'></div><div class='col-md-3'></div></div>";
-				if ($inc == 3) echo "<div class='col-md-3'></div></div>";
+				if ($inc == 1) echo "<div class='col-sm-3'></div><div class='col-sm-3'></div><div class='col-sm-3'></div></div>";
+				if ($inc == 2) echo "<div class='col-sm-3'></div><div class='col-sm-3'></div></div>";
+				if ($inc == 3) echo "<div class='col-sm-3'></div></div>";
 				?>
 			</div>
 			<?php
@@ -137,29 +153,27 @@
 						$inc = ($inc == 4) ? 1 : $inc + 1;
 						if ($inc == 1) echo "<div class='row'>";
 					?>
-						<div class="col-md-3">
-							<div class="panel panel-default">
-								<div class="panel-heading text-center">
-									<b><?php echo $prow['productname']; ?></b>
-								</div>
-								<div class="panel-body">
-									<img src="admin/<?php if ($prow['photo'] == '') {
-														echo 'upload/noimage.jpg';
-													} else {
-														echo $prow['photo'];
-													} ?>" height="225px;" width="100%">
-								</div>
-								<div class="panel-footer text-center">
-									&#8364; <?php echo number_format($prow['price'], 2); ?>
+
+						<div class="col-sm-3 mt-3">
+							<div class="card">
+								<img class="card-img-top" src="admin/<?php if ($prow['photo'] == '') {
+																			echo 'upload/noimage.jpg';
+																		} else {
+																			echo $prow['photo'];
+																		} ?>" alt="Card image cap" style="width: 100%;height: 200px;object-fit: cover;">
+								<div class="card-body">
+									<h5 class="card-text"><?php echo $prow['productname']; ?></h5>
+									<hr>
+									<h6 class="card-text"><?php echo number_format($prow['price'], 2); ?> &#8364; </h6>
 								</div>
 							</div>
 						</div>
 					<?php
 						if ($inc == 4) echo "</div>";
 					}
-					if ($inc == 1) echo "<div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'></div></div>";
-					if ($inc == 2) echo "<div class='col-md-3'></div><div class='col-md-3'></div></div>";
-					if ($inc == 3) echo "<div class='col-md-3'></div></div>";
+					if ($inc == 1) echo "<div class='col-sm-3'></div><div class='col-sm-3'></div><div class='col-sm-3'></div></div>";
+					if ($inc == 2) echo "<div class='col-sm-3'></div><div class='col-sm-3'></div></div>";
+					if ($inc == 3) echo "<div class='col-sm-3'></div></div>";
 					?>
 				</div>
 			<?php
@@ -169,9 +183,9 @@
 
 	</div>
 
-	<footer>
-		Made with love from IllyrianDev
-	</footer>
+	<!-- Footer Included -->
+	<!-- Path →  C:\xampp\htdocs\restaurant-doni\templates\footer.php -->
+	<?php include('./templates/footer.php'); ?>
 
 </html>
 </body>
