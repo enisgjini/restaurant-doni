@@ -40,7 +40,7 @@
 				<a href="rreth-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/1.jpg" class="img-thumbnail" alt="">
+				<img src="img/slide-1.jpg" class="img-thumbnail rounded-3" alt="">
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
+							<img class="card-img-top" src="img/gallery-img/pamja-jasht-1.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
@@ -69,7 +69,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
+							<img class="card-img-top" src="img/gallery-img/ushqimi-2.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
@@ -82,7 +82,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
+							<img class="card-img-top" src="img/gallery-img/pamja-mbrenda-1.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text
