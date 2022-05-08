@@ -10,13 +10,13 @@ body {
 
 .btn {
     background: white;
-    transition: 0.5s linear;
+    transition: 0.5s;
 
     color: black;
 }
 
 .btn:hover {
-    transition: 0.5s linear;
+    transition: 0.5s;
     transform: scale(1.1);
     background: black;
     box-shadow: 3px 5px 1px #ccc;
@@ -45,22 +45,8 @@ body {
 }
 
 .card:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Carousel design */
@@ -154,7 +140,7 @@ body {
 }
 
 #section2 {
-    background-image: url('../img/menu.jpg');
+    background-image: url('https://images.pexels.com/photos/4134537/pexels-photo-4134537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -346,13 +332,12 @@ body {
 }
 
 
-#facebook-icon
-{
+#facebook-icon {
     color: grey;
     transition: 0.5s;
 }
-#facebook-icon:hover
-{
+
+#facebook-icon:hover {
     color: white;
     cursor: pointer;
     transition: 0.5s;

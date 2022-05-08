@@ -37,7 +37,7 @@
 				<h3 class="text-center mt-3 doni-bg-text text-body">Mirë se vini</h3>
 				<p class="text-center mt-3 doni-paragraph"> Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
 
-				<a href="rresh-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
+				<a href="rreth-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
 			</div>
 			<div class="col-sm-6">
 				<img src="img/1.jpg" class="img-thumbnail" alt="">
@@ -61,8 +61,8 @@
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
-							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
-							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
+							<p class="doni-paragraph">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+							<a href="" class="text-decoration-none text-dark doni-paragraph">Shiko më shumë →</a>
 						</div>
 					</div>
 				</div>
@@ -73,8 +73,8 @@
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
-							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
-							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
+							<p class="doni-paragraph">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+							<a href="" class="text-decoration-none text-dark doni-paragraph">Shiko më shumë →</a>
 						</div>
 					</div>
 				</div>
@@ -87,8 +87,8 @@
 						<div class="card-body">
 							<h5 class="card-title doni-card-text
 							">Restorant romantik</h5>
-							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
-							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
+							<p class="doni-paragraph">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+							<a href="" class="text-decoration-none text-dark doni-paragraph">Shiko më shumë →</a>
 						</div>
 					</div>
 				</div>
