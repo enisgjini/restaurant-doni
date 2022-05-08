@@ -19,9 +19,9 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="carousel-caption">
-                        <h1>DONI - <i>Rresh Nesh</i></h1>
+                        <h1 class="doni-bg-text">Rresh Nesh</i></h1>
                     </div>
-                    <img src="../img/rresh-nesh.jpg" class="d-block w-100" alt="slide-img-1">
+                    <img src="./img/rresh-nesh.jpg" class="d-block w-100" alt="slide-img-1">
                 </div>
             </div>
         </div>

@@ -16,6 +16,7 @@
 
 	<!-- Title of Webpage -->
 	<title>Restauranti Juaj</title>
+	
 </head>
 
 <body>

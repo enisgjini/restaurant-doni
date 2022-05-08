@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Link to CSS file -->
 	<link rel="stylesheet" href="css/main.css">
-
+	
 </head>
 
 <body>
@@ -45,7 +45,7 @@
 
 
 	<div class="container mt-5">
-		<h1 class="text-center mt-5 mb-5">Menuja jonë</h1>
+		<h1 class="doni-text-second text-center mt-5 mb-5" id="menu-text">Menuja jonë</h1>
 		<ul class="nav nav-pills flex-row flex-sm-row mt-5 ">
 			<?php
 			$sql = "select * from category order by categoryid asc limit 1";

@@ -19,7 +19,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="carousel-caption">
-                        <h1>DONI - <i>Galeria</i></h1>
+                        <h1 class="doni-bg-text">Galeria</h1>
                     </div>
                     <img src="./img/gallery.jpg" class="d-block w-100" alt="slide-img-1">
                 </div>

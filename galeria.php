@@ -88,10 +88,10 @@
     <section class="main text-center mt-5">
         <div class="container ">
             <ul class="nav nav-pills nav-fill d-flex flex-column flex-sm-row ">
-                <li class="nav-item active mb-2" data-class="all">Të gjitha fotot</li>
-                <li class="nav-item mb-2" data-class="pamje-mbrenda">Pamja nga mbrenda</li>
-                <li class="nav-item mb-2" data-class="pamje-jashte">Pamja nga jashtë</li>
-                <li class="nav-item mb-2" data-class="ushqime">Ushqime</li>
+                <li class="nav-item active mb-2 doni-paragraph" data-class="all">Të gjitha fotot</li>
+                <li class="nav-item mb-2 doni-paragraph" data-class="pamje-mbrenda">Pamja nga mbrenda</li>
+                <li class="nav-item mb-2 doni-paragraph" data-class="pamje-jashte">Pamja nga jashtë</li>
+                <li class="nav-item mb-2 doni-paragraph" data-class="ushqime">Ushqime</li>
             </ul>
 
         </div>
@@ -143,7 +143,7 @@
 
     </section>
 
-    <script src="function.js"></script>
+    <script src="js/function.js"></script>
 
 
 

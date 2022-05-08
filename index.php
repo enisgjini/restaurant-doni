@@ -32,12 +32,12 @@
 
 	<div class="container mt-5">
 		<div class="row">
-			<div class="col-sm-6 mt-2">
-				<h1 class="text-center mt-3">Restaurant DONI</h1>
-				<h3 class="text-center mt-3">Mirë se vini</h3>
-				<p class="text-center mt-3"> Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
+			<div class="col-sm-6 mt-2 text-center">
+				<h1 class="text-center mt-3 doni-text-second">Restaurant DONI</h1>
+				<h3 class="text-center mt-3 doni-bg-text text-body">Mirë se vini</h3>
+				<p class="text-center mt-3 doni-paragraph"> Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
 
-				<a href="rresh-nesh.php" class="btn btn-outline-info d-flex justify-content-center text-center">HISTORIA JONË →</a>
+				<a href="rresh-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
 			</div>
 			<div class="col-sm-6">
 				<img src="img/1.jpg" class="img-thumbnail" alt="">
@@ -47,8 +47,8 @@
 
 
 	<div class="container-fluid" id="section1">
-		<h1 class="text-light text-center pt-5"><i>Shiko</i></h1>
-		<h1 class="text-light text-center pt-5">Restaurant DONI</h1>
+		<h1 class="text-light text-center pt-5 doni-text-second">Shiko</h1>
+		<h1 class="text-center pt-5 doni-bg-text">Restaurant DONI</h1>
 	</div>
 
 	<div class="container-fluid">
@@ -60,7 +60,7 @@
 							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Restorant romantik</h5>
+							<h5 class="card-title doni-card-text">Restorant romantik</h5>
 							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
 							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
 						</div>
@@ -72,7 +72,7 @@
 							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Restorant romantik</h5>
+							<h5 class="card-title doni-card-text">Restorant romantik</h5>
 							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
 							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
 						</div>
@@ -85,7 +85,8 @@
 							<img class="card-img-top" src="img/1.jpg" alt="Card image cap" style="border-radius: 10px;">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Restorant romantik</h5>
+							<h5 class="card-title doni-card-text
+							">Restorant romantik</h5>
 							<p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
 							<a href="" class="text-decoration-none text-dark">Shiko më shumë →</a>
 						</div>
@@ -97,28 +98,28 @@
 
 	<!-- Restaurant DONI - Menu | Start -->
 	<div class="container-fluid" id="section2">
-		<h1 class="text-light text-center pt-5"><i>Shiko</i></h1>
-		<h1 class="text-light text-center pt-5">Restaurant DONI - Menu</h1>
+		<h1 class="text-light text-center pt-5 doni-text-second"><i>Shiko</i></h1>
+		<h1 class="text-light text-center pt-5 doni-bg-text">Menuja jonë</h1>
 	</div>
 	<div class="container mt-5 mb-5">
 		<div class="row">
 			<div class="col-sm-6 mt-5 text-center">
 				<img src="img/drekë.jpg" alt="" class="menu mx-auto d-block">
-				<a class="btn btn-outline-dark mr-2 mt-2" href="index.php">Drekë →</a>
+				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Drekë </a>
 			</div>
 			<div class="col-sm-6 mt-5 text-center">
 				<img src="img/mengjesi.jpg" alt="" class="menu mx-auto d-block">
-				<a class="btn btn-outline-dark mr-2 mt-2" href="index.php">Mëngjesi →</a>
+				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Mëngjesi</a>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 mt-5 text-center">
 				<img src="img/darka.jpg" alt="" class="menu mx-auto d-block">
-				<a class="btn btn-outline-dark mr-2 mt-2" href="index.php">Darka →</a>
+				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Darka </a>
 			</div>
 			<div class="col-sm-6 mt-5 text-center">
 				<img src="img/ahengu.jpg" alt="" class="menu mx-auto d-block">
-				<a class="btn btn-outline-dark mr-2 mt-2" href="index.php">Ahengu →</a>
+				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Ahengu </a>
 			</div>
 		</div>
 	</div>

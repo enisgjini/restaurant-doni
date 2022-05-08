@@ -31,15 +31,15 @@
 
     <!-- First Div -->
     <div class="container mt-5 mb-5">
-        <h1 class="text-center"><i>Italian Restaurant</i></h1>
-        <h1 class="text-center mt-5"><strong> Tregimi jonë</strong></h1>
-        <p class="text-center mt-5">Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in, luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est. Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed luctus mattis.</p>
+        <h1 class="doni-text-second text-center"><i>Italian Restaurant</i></h1>
+        <h1 class="doni-bg-text text-center text-body mt-5">Tregimi jonë</h1>
+        <p class="doni-paragraph text-center mt-5 mb-5">Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in, luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est. Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed luctus mattis.</p>
     </div>
 
     <!-- Second Div -->
     <div class="container-fluid mt-5 mb-5" style="background-image: url('img/video-player.jpg');">
-        <h1 class="text-center text-light pt-5 pb-5"><i>Zbulo</i></h1>
-        <h1 class="text-center pt-5  text-light "><strong> Video jonë</strong></h1>
+        <h1 class="doni-text-second text-center text-light pt-5"><i>Zbulo</i></h1>
+        <h1 class="doni-bg-text text-center pt-5  text-light "><strong> Video jonë</strong></h1>
         <a href="#" onclick="lightbox_open();">
             <div class="wrapper">
                 <div class="circle pulse"></div>
@@ -66,9 +66,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1 class="pt-5 pb-2 text-center">Delicious</h1>
-                    <h1 class="pt-2 pb-5 text-center">RECIPES</h1>
-                    <p class="text-center">
+                    <h1 class="doni-text-second pt-5 pb-2 text-center">Delicious</h1>
+                    <h1 class="doni-bg-text pt-2 pb-5 text-center text-body">RECIPES</h1>
+                    <p class="doni-paragraph text-center">
                         Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
                     </p>
                 </div>
@@ -88,9 +88,9 @@
                 </div>
                 <div class="col-sm-6">
 
-                    <h1 class="pt-5 pb-2 text-center">Romantic</h1>
-                    <h1 class="pt-2 pb-5 text-center">RECIPES</h1>
-                    <p class="text-center">
+                    <h1 class="doni-text-second pt-5 pb-2 text-center">Romantic</h1>
+                    <h1 class="doni-bg-text pt-2 pb-5 text-center text-body">RECIPES</h1>
+                    <p class="doni-paragraph text-center">
                         Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
                     </p>
                 </div>
