@@ -24,7 +24,7 @@
 
 	<!-- Carousel of images Included -->
 	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\carousel-of-images.php -->
-	<?php include('./templates/carousel-of-images-2.php'); ?>
+	<?php include('./templates/carousel-of-image-1.php'); ?>
 
 
 
