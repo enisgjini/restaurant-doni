@@ -53,7 +53,7 @@
 
         <div id="light">
             <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-            <video id="VisaChipCardVideo" width="600" controls>
+            <video id="VisaChipCardVideo" width="100%" controls>
                 <source src="img/video-1.mp4" type="video/mp4">
                 <!--Browser does not support <video> tag -->
             </video>
