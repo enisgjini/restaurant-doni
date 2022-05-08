@@ -52,7 +52,7 @@
 			$fquery = $conn->query($sql);
 			$frow = $fquery->fetch_array();
 			?>
-			<li class="nav-item"><a data-toggle="tab" class="btn btn-outline-dark mr-3 mt-2" href="#<?php echo $frow['catname'] ?>"><?php echo $frow['catname'] ?></a></li>
+			<li class="nav-item"><a data-bs-toggle="tab" class="btn btn-outline-dark mr-3 mt-2 doni-paragraph" href="#<?php echo $frow['catname'] ?>"><?php echo $frow['catname'] ?></a></li>
 			<?php
 
 			$sql = "select * from category order by categoryid asc";
@@ -63,7 +63,7 @@
 			$query = $conn->query($sql);
 			while ($row = $query->fetch_array()) {
 			?>
-				<li class="nav-item"><a data-toggle="tab" class="btn btn-outline-dark mr-3 mt-2" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
+				<li class="nav-item"><a data-toggle="tab" class="btn btn-outline-dark mr-3 mt-2 doni-paragraph" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
 			<?php
 			}
 			?>
@@ -94,9 +94,9 @@
 																		echo $pfrow['photo'];
 																	} ?>" alt="Card image cap" style="width: 100%;height: 200px;object-fit: cover;">
 							<div class="card-body">
-								<h5 class="card-text"><?php echo $pfrow['productname']; ?></h5>
+								<h5 class="card-text doni-card-text-menu"><?php echo $pfrow['productname']; ?></h5>
 								<hr>
-								<h6 class="card-text"><?php echo number_format($pfrow['price'], 2); ?> &#8364; </h6>
+								<h6 class="card-text doni-card-text-menu"><?php echo number_format($pfrow['price'], 2); ?> &#8364; </h6>
 							</div>
 						</div>
 					</div>
@@ -162,9 +162,9 @@
 																			echo $prow['photo'];
 																		} ?>" alt="Card image cap" style="width: 100%;height: 200px;object-fit: cover;">
 								<div class="card-body">
-									<h5 class="card-text"><?php echo $prow['productname']; ?></h5>
+									<h5 class="card-text doni-card-text-menu"><?php echo $prow['productname']; ?></h5>
 									<hr>
-									<h6 class="card-text"><?php echo number_format($prow['price'], 2); ?> &#8364; </h6>
+									<h6 class="card-text doni-card-text-menu"><?php echo number_format($prow['price'], 2); ?> &#8364; </h6>
 								</div>
 							</div>
 						</div>

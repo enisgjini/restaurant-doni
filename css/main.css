@@ -323,6 +323,10 @@ body {
     letter-spacing: 4px;
 }
 
+.doni-card-text-menu {
+    font-family: 'Poppins';
+}
+
 .doni-text-second {
     font-family: 'Courgette', cursive;
 }
