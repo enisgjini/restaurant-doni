@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to CSS file -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
@@ -21,7 +21,7 @@
                     <div class="carousel-caption">
                         <h1>DONI - <i>Rresh Nesh</i></h1>
                     </div>
-                    <img src="./img/rresh-nesh.jpg" class="d-block w-100" alt="slide-img-1">
+                    <img src="../img/rresh-nesh.jpg" class="d-block w-100" alt="slide-img-1">
                 </div>
             </div>
         </div>

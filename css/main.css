@@ -142,7 +142,7 @@ body {
 }
 
 #section1 {
-    background-image: url('img/parallax.jpg');
+    background-image: url('../img/parallax.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -151,7 +151,7 @@ body {
 }
 
 #section2 {
-    background-image: url('img/menu.jpg');
+    background-image: url('../img/menu.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

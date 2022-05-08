@@ -15,7 +15,7 @@
 	<title>Restauranti Juaj</title>
 
 	<!-- Link to CSS -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
 
