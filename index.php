@@ -2,33 +2,16 @@
 <html lang="en">
 
 <head>
-	<!-- Meta Tag's -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-
-
-	<!-- Fav Icon -->
-	<link rel="icon" href="img/logo.png">
-
-	<!-- Title of Webpage -->
-	<title>Restauranti Juaj</title>
-
-	<!-- Link to CSS -->
-	<link rel="stylesheet" href="./css/main.css">
-
-	
-	
+	<?php include('scripts/head-script.php') ?>
 </head>
 
 <body>
 	<!-- Navbar Included -->
 	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
-	<?php include('./templates/navbar.php'); ?>
-
+	<?php include('templates/bootstrap-navbar.php'); ?>
 	<!-- Carousel of images Included -->
-	<!-- Path → C:\xampp\htdocs\restaurant-doni\templates\carousel-of-images.php -->
-	<?php include('./templates/carousel-of-images-1.php'); ?>
+	<!-- Path → C:\xampp\htdocs\restaurant-doni\carousels\full-page-image-carousel.php -->
+	<?php include('carousels/full-page-image-carousel.php'); ?>
 
 
 
@@ -42,7 +25,7 @@
 				<a href="rreth-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/slide-1.webp" alt="">
+				<img src="img/slide-1.webp" alt="" class="img-thumbnail">
 			</div>
 		</div>
 	</div>
@@ -126,44 +109,9 @@
 		</div>
 	</div>
 	<!-- Restaurant DONI - Menu | End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- Footer Included -->
 	<!-- Path →  C:\xampp\htdocs\restaurant-doni\templates\footer.php -->
-	<?php include('./templates/footer.php'); ?>
-
+	<?php include('templates/bootstrap-footer.php'); ?>
 
 </html>
 </body>

@@ -2,30 +2,24 @@
 <html lang="en">
 
 <head>
-    <!-- Meta Tag's -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/main.css">
-
+    <!-- Navbar Included -->
+    <!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
+    <?php include('scripts/head-script.php'); ?>
 
 </head>
 
 <body>
-    <!-- Navbar Included -->
-    <!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
-    <?php include('templates/header.php'); ?>
+
 
 
     <!-- Navbar Included -->
     <!-- Path → C:\xampp\htdocs\restaurant-doni\templates\navbar.php -->
-    <?php include('./templates/navbar.php'); ?>
+    <?php include('templates/bootstrap-navbar.php'); ?>
 
 
     <!-- Carousel of images Included -->
     <!-- Path → C:\xampp\htdocs\restaurant-doni\templates\carousel-of-images.php -->
-    <?php include('./templates/carousel-of-image-2.php'); ?>
+    <?php include('carousels/carousel-of-image-2.php'); ?>
 
 
 
@@ -115,7 +109,11 @@
 
     <!-- Footer Included -->
     <!-- Path →  C:\xampp\htdocs\restaurant-doni\templates\footer.php -->
-    <?php include('./templates/footer.php'); ?>
+    <?php include('templates/bootstrap-footer.php'); ?>
+
+    <!-- Body Script Included -->
+    <!-- Path →  C:\xampp\htdocs\restaurant-doni\scripts\body-script.php -->
+    <?php include('scripts/body-script.php'); ?>
 
 </html>
 </body>
