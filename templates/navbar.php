@@ -2,6 +2,37 @@
 <html lang="en">
 
 <head>
+  <!--Recommended Meta Tags-->
+  <meta charset="utf-8">
+  <meta name="language" content="sq">
+  <meta http-equiv="content-type" content="text/html">
+  <meta name="author" content="Enis Gjini">
+  <meta name="designer" content="Enis Gjini">
+  <meta name="publisher" content="Enis Gjini">
+
+  <!--Search Engine Optimization Meta Tags-->
+  <title> Rafayel Mkrtchyan - Official Website. </title>
+  <meta name="description" content="Restaurant DONI">
+  <meta name="keywords" content="Restaurant DONI,Restaurant,DONI,DONI Gjinoc,Gjinoc,Gjinoc Doni">
+
+
+  <!--Optional Meta Tags-->
+  <meta name="distribution" content="web">
+  <meta name="web_author" content="Rafayel Mkrtchyan">
+  <meta name="rating" content="general">
+
+  <!--Meta Tags for HTML pages on Mobile-->
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--http-equiv Tags-->
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+
+
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -104,8 +135,8 @@
           </li>
         </ul>
         <div class="d-flex">
-          <a href=""><i class="bi bi-facebook pr-3" id="facebook-icon"></i></a>
-          <a href=""><i class="bi bi-instagram pr-3" id="facebook-icon"></i></a>
+          <a href="https://www.facebook.com/restaurandoni" target="_blank"><i class="bi bi-facebook pr-3" id="facebook-icon"></i></a>
+          <a href="https://www.instagram.com/restaurant.doni/" target="_blank"><i class="bi bi-instagram pr-3" id="facebook-icon"></i></a>
 
         </div>
       </div>

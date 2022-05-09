@@ -40,7 +40,7 @@
 				<a href="rreth-nesh.php" class="pt-5 text-body text-decoration-none doni-paragraph">HISTORIA JONË →</a>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/slide-1.jpg" class="img-thumbnail rounded-3" alt="">
+				<img src="img/slide-1.webp" class="img-thumbnail rounded-3" alt="">
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/gallery-img/pamja-jasht-1.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
+							<img class="card-img-top" src="img/gallery-img/pamja-jasht-1.webp" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
@@ -69,7 +69,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/gallery-img/ushqimi-2.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
+							<img class="card-img-top" src="img/gallery-img/ushqimi-2.webp" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text">Restorant romantik</h5>
@@ -82,7 +82,7 @@
 				<div class="card-wrapper col-sm-4 ">
 					<div class="card border-0">
 						<div class="card-img-wrapper">
-							<img class="card-img-top" src="img/gallery-img/pamja-mbrenda-1.jpg" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
+							<img class="card-img-top" src="img/gallery-img/pamja-mbrenda-1.webp" alt="Card image cap" style="width: 100%;height: 350px;object-fit: cover;border-radius:25px">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title doni-card-text
@@ -104,21 +104,21 @@
 	<div class="container mt-5 mb-5">
 		<div class="row">
 			<div class="col-sm-6 mt-5 text-center">
-				<img src="img/drekë.jpg" alt="" class="menu mx-auto d-block">
+				<img src="img/drekë.webp" alt="" class="menu mx-auto d-block">
 				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Drekë </a>
 			</div>
 			<div class="col-sm-6 mt-5 text-center">
-				<img src="img/mengjesi.jpg" alt="" class="menu mx-auto d-block">
+				<img src="img/mengjesi.webp" alt="" class="menu mx-auto d-block">
 				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Mëngjesi</a>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 mt-5 text-center">
-				<img src="img/darka.jpg" alt="" class="menu mx-auto d-block">
+				<img src="img/darka.webp" alt="" class="menu mx-auto d-block">
 				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Darka </a>
 			</div>
 			<div class="col-sm-6 mt-5 text-center">
-				<img src="img/ahengu.jpg" alt="" class="menu mx-auto d-block">
+				<img src="img/ahengu.webp" alt="" class="menu mx-auto d-block">
 				<a class="btn btn-outline-dark mr-2 mt-2 doni-card-text" href="menu.php">Ahengu </a>
 			</div>
 		</div>

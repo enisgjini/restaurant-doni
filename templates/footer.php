@@ -31,10 +31,10 @@
 
                     <div class="mt-4">
 
-                        <a href="" class="text-decoration-none text-white"><i class="bi bi-facebook pr-3" style="font-size: 24px;"></i>
+                        <a href="https://www.facebook.com/restaurandoni" target="_blank" class="text-decoration-none text-white"><i class="bi bi-facebook pr-3" style="font-size: 24px;"></i>
                         </a>
 
-                        <a href="" class="text-decoration-none text-white"><i class="bi bi-instagram" style="font-size: 24px;"></i>
+                        <a href="https://www.instagram.com/restaurant.doni/" target="_blank" class="text-decoration-none text-white"><i class="bi bi-instagram" style="font-size: 24px;"></i>
                         </a>
 
                     </div>
@@ -43,7 +43,7 @@
 
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
-                    <h5 class="text-uppercase mb-4 pb-1 doni-card-text">Search something</h5>
+                    <h5 class="text-uppercase mb-4 pb-1 doni-card-text">Kërkoni diçka</h5>
 
                     <div class="form-outline form-white mb-4">
                         <input type="text" id="formControlLg" class="form-control form-control-lg" />
