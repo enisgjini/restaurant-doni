@@ -131,7 +131,7 @@ body {
 }
 
 #section1 {
-    background-image: url('../img/parallax.jpg');
+    background-image: url('../img/parallax.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,7 +140,7 @@ body {
 }
 
 #section2 {
-    background-image: url('https://preview.colorlib.com/theme/pato/images/xmaster-slides-01.jpg.pagespeed.ic.6OJbHcLkNQ.webp');
+    background-image: url('../img/menu.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -159,6 +159,7 @@ body {
     height: 350px;
     object-fit: cover;
 }
+
 
 
 
