@@ -6,9 +6,9 @@
 		<div class="row">
 			<div class="col p-4">
 				<h2 class="text-left">Lista e produkteve</h1>
-				<hr>
+					<hr>
 
-					<select id="catList" class="btn btn-default">
+					<select id="catList" class="btn btn-default" style="border: 1px solid black; border-radius:5px;">
 						<option value="0">Te gjitha kategorit</option>
 						<?php
 						$sql = "select * from category";

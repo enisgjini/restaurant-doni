@@ -53,36 +53,3 @@
         </div>
     </div>
 </div>
-
-<!-- <div class="modal fade" id="addcategory" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <center>
-                    <h4 class="modal-title" id="myModalLabel">Shtoni nje kategori te re</h4>
-                </center>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <form method="POST" action="addcategory.php" enctype="multipart/form-data">
-                        <div class="form-group" style="margin-top:10px;">
-                            <div class="row">
-                                <div class="col-md-3" style="margin-top:7px;">
-                                    <label class="control-label">Emri i kategoris</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" name="cname" required>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
-                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span>Ruaje</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div> -->

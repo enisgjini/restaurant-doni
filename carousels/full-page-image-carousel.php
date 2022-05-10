@@ -29,24 +29,24 @@
             </div>
             <div class="carousel-item ">
                 <div class="d-flex flex-column align-items-center justify-content-center min-vh-100" style="background-image:url('./img/slide-2.webp') ;background-repeat:no-repeat;background-size: cover;">
-                    <!-- <h1 class="text-white text-center doni-text-second">
+                    <h1 class="text-white text-center doni-text-second ">
                         Welcome to
                     </h1>
                     <br>
-                    <h1 class="text-white text-center doni-card-text">
+                    <h1 class="text-white text-center doni-card-text display-4">
                         Restaurant DONI
-                    </h1> -->
+                    </h1>
                 </div>
             </div>
             <div class="carousel-item ">
                 <div class="d-flex flex-column align-items-center justify-content-center min-vh-100" style="background-image:url('./img/slide-3.webp') ;background-repeat:no-repeat;background-size: cover;">
-                    <!-- <h1 class="text-white text-center doni-text-second">
+                    <h1 class="text-white text-center doni-text-second ">
                         Welcome to
                     </h1>
                     <br>
-                    <h1 class="text-white text-center doni-card-text">
+                    <h1 class="text-white text-center doni-card-text display-4">
                         Restaurant DONI
-                    </h1> -->
+                    </h1>
                 </div>
             </div>
         </div>
