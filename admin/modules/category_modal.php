@@ -21,7 +21,7 @@
                  </div>
              </div>
              <div class="modal-footer">
-                 <button type="button" class="btn btn-default" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
+                 <button type="button" class="btn btn-light border" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span>Ruaje</button>
                  </form>
              </div>
@@ -55,8 +55,8 @@
 
              </div>
              <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                 <button type="submit" class="btn btn-primary">Save changes</button>
+                 <button type="button" class="btn btn-light border" data-bs-dismiss="modal">Mbylle</button>
+                 <button type="submit" class="btn btn-success">Ruaj</button>
                  </form>
              </div>
          </div>
@@ -79,7 +79,7 @@
                  <h6 class="text-center">A je i sigurtë qe deshiron ta heqesh përgjithmonë kategorinë <?php echo $row['catname']; ?> ?</h6>
              </div>
              <div class="modal-footer">
-                 <button type="button" class="btn btn-default" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
+                 <button type="button" class="btn btn-light border" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
                  <a href="../admin/modules/delete_category.php?category=<?php echo $row['categoryid']; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>Po</a>
                  </form>
              </div>

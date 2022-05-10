@@ -52,7 +52,7 @@
                 </div>
 			</div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
+                <button type="button" class="btn btn-light border" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
             </div>
         </div>
         <!-- /.modal-content -->
@@ -71,7 +71,7 @@
                 <h3 class="text-center"><?php echo $row['customer']; ?></h3>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
+                <button type="button" class="btn btn-light border" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
                 <a href="delete_sales.php?purchase=<?php echo $row['purchaseid']; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>Fshije</a>
                 </form>
             </div>

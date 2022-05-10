@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Mbylle</button>
+                <button type="button" class="btn btn-light border" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Mbylle</button>
                 <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-edit"></span> Ruaj</button>
                 </form>
             </div>
@@ -72,7 +72,7 @@
                 <h6 class="text-center">A je i sigurtë qe deshiron ta heqesh përgjithmonë produktin <?php echo $row['productname']; ?> ?</h6>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Mbylle</button>
+                <button type="button" class="btn btn-light border" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Mbylle</button>
                 <a href="../admin/modules/delete_product.php?product=<?php echo $row['productid']; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Po</a>
                 </form>
             </div>

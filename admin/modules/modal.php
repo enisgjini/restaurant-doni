@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light border border-dark" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
+                <button type="button" class="btn btn-light border " data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Mbylle</button>
                 <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span>Ruaje</button>
                 </form>
             </div>

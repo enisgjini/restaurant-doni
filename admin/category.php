@@ -16,7 +16,7 @@
 					<table class="table table-hover table-bordered table-responsive">
 						<thead>
 							<th>Emri i Kategoris</th>
-							<th>Action</th>
+							<th>Vepro</th>
 						</thead>
 						<tbody>
 							<?php
