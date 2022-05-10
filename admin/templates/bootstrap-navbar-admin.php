@@ -1,8 +1,8 @@
 <nav class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="true" data-bs-scroll="true">
     <div class="offcanvas-header">
 
-        <h3>
-            Sidebar
+        <h3 class="text-white">
+            Restaurant DONI
         </h3>
 
     </div>
